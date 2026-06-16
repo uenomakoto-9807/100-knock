@@ -1,7 +1,12 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun 16 16:07:04 2026
+n=int(input("自然数n="))
 
-@author: mako
-"""
+if n<=0 or n>=200:
+    print("入力エラー")
 
+else:
+    
+    sum=n
+    for i in range (1,n):
+        sum+=i
+        
+    print(f"1から{n}までの和は{sum}です。")
